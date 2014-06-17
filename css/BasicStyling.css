@@ -1,0 +1,436 @@
+/**************************** BASIC STYLING *********************************/ 
+
+
+.nostroke {
+    
+    -webkit-text-stroke:0px !important; 
+
+}
+
+.pullLeft {
+
+    float:left ; 
+
+}
+
+.pullRight {
+
+    float:right ; 
+
+}
+
+
+/**************************** BASIC STYLING *********************************/
+
+
+
+
+
+
+
+/**************************** CONTENT STYLING *******************************/ 
+
+.subPage .content { background:rgba(0,0,0,0.85) ; width:0% ; }
+
+/**************************** CONTENT STYLING *******************************/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************** DIVIDER STYLING *******************************/ 
+
+.divider {text-align: center;}
+
+.dividerCircle {
+   
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin: 5px;
+    width: 10px;
+    
+} 
+
+
+            /************ DIVIDER BUTTONS STYLING ****************/ 
+
+            .d1 {
+            
+                background: #FD6259;
+            
+            }
+
+            .d2 {
+            
+                background: #FFBE2F;
+            
+            }
+
+            .d3 {
+            
+                background: #2BCF43;
+            
+            }
+
+            /************ DIVIDER BUTTONS STYLING ****************/ 
+
+
+/**************************** DIVIDER STYLING *******************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+/***************************** INPUT STYLING ********************************/
+
+.inputContainer { position:relative;  }
+
+    /******** SPECIAL STYLE FOR NOT RESIZING TEXT AREAS *************************/ 
+
+        textarea { resize:none; }
+
+    /******** SPECIAL STYLE FOR NOT RESIZING TEXT AREAS *************************/ 
+
+input,
+textarea {
+ 
+    background:transparent;
+    border:1px solid #1693A5 ; 
+    color:#1693A5 ;
+    font-family:Intro Condensed ;
+    font-size:30px ;
+    margin-bottom:15px !important; 
+    outline:none ;
+    padding:10px ;
+    padding-left: 50px;
+    width:100% ;   
+    border-left:1px solid #1693A5;
+    display:block;
+
+        /**************** SPECIAL TRANSITION OF INPUTS AND TEXTAREAS **********************/
+    
+        transition:all 0.1s ease-in-out;
+        -webkit-transition:all 0.1s ease-in-out; 
+        -moz-transition:all 0.1s ease-in-out; 
+        -ms-transition:all 0.1s ease-in-out; 
+        -o-transition:all 0.1s ease-in-out; 
+    
+}
+
+input:hover,
+textarea:hover{
+  
+    border-left:3px solid #1693A5 ; 
+    
+} 
+
+input:focus,
+textarea:focus{
+  
+    border-left:6px solid #1693A5 ; 
+    
+} 
+
+.label {
+
+    bottom:0px;
+    color: #FFF;
+    font-family: FA;
+    font-size: 21px;
+    left: 20px;
+    line-height:60px;
+    position: absolute;
+    top:0;
+
+}
+    
+
+/***************************** INPUT STYLING ********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************** SECTION STYLING ********************************/
+
+
+.section { margin-bottom:10px ;padding:10px; }
+
+.section:last-child { margin-bottom:0px ; }
+
+
+/***************************** SECTION STYLING ********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************** CREATIVE BUTTON STYLING *****************************/
+
+
+
+.button {
+
+	border: 0px;
+	cursor:pointer;
+	font-family: Mohave;
+    font-size: 22px;
+    height:60px ; 
+    overflow:hidden;
+    outline: none;
+	padding: 10px;
+	position:relative;
+	text-align:center;
+    text-transform: uppercase ; 
+
+    /**************** SPECIAL TRANSITION OF BUTTONS **********************/    
+    
+        transition:all 0.2s ease-in-out;
+        -webkit-transition:all 0.2s ease-in-out; 
+        -moz-transition:all 0.2s ease-in-out; 
+        -ms-transition:all 0.2s ease-in-out; 
+        -o-transition:all 0.2s ease-in-out; 
+
+}
+
+.button:before {
+
+    bottom: 0;
+	font-family: FA;
+	font-size: 25px;
+    font-weight: 100;
+    left:0;
+    line-height:60px ; 
+    position: absolute;
+    right:0;
+	text-transform: uppercase;
+    top: 0;
+	-webkit-transform:translateX(-200%);
+	-webkit-text-stroke: 0px ; 
+
+}
+
+.button:hover span {
+
+	margin-right:-200%;	
+
+}
+
+.button:hover:before {  -webkit-transform:translateX(0%);   }
+
+.button:active {    top:2px !important;     }
+
+.button:active,.button:active:before {  background: #4B6C71;color: #00A4BD;     }
+
+/***************************** CREATIVE BUTTON STYLING *****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************** SCROLLABLE STYLING *****************************/
+
+.scrollable { position:relative; float: left ; width:100%;}
+
+.scrollable p {
+ 
+    color:#54C4B8 ;
+	font-size: 1.9em;
+	font-weight: 300;
+	line-height:1.6em;
+	position:relative;
+    text-shadow:1px 1px 0px black ; 
+    
+}
+
+/***************************** SCROLLABLE STYLING *****************************/
+
+
+
+
+
+
+
+
+/***************************** DIVISION'S BODY STLING *************************/ 
+
+
+.contentWrapper .body { padding-right: 15px; position: relative;overflow: hidden;}
+
+.contentWrapper p { position:relative; }
+
+
+
+
+/***************************** DIVISION'S BODY STLING *************************/ 
+
+
+
+
+
+
+
+/******************************** SOCIAL NETWORKS COLORS ***********************/ 
+
+
+.facebook {
+
+	background:#3B5998;
+
+}
+
+.twitter {
+
+	background:#55ACEE;
+
+}
+
+.su {
+
+	background:#EB4924;
+
+}
+
+
+/******************************** SOCIAL NETWORKS COLORS ***********************/ 
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** FOOTER COLORS ********************************/ 
+
+
+.footer {
+
+	position: fixed;
+	bottom: 30px;
+	left: 0px;
+	width: 75%;
+	right: 0px;
+	margin: 0px auto;
+	z-index:10000;
+
+}
+
+
+/******************************** FOOTER COLORS ********************************/
+
+
+
+
+
+
+
+/******************************** WEBSITE COLORS ********************************/
+
+
+.baseBG { background:#54C4B8 ; }
+
+.baseFC { color:#54C4B8 ; }
+
+.sBG { background:#1693A5 ; }
+
+.sFC { color:#1693A5 ; }
+
+.tBG {background:#4B6C71 ; }
+
+.tFC {color:#4B6C71 ; }
+
+.tBG1 {background:#FB5262 ; }
+
+.tFC1 {color:#FB5262 ; }
+
+.greyS1BG { background:#525252 ; } 
+
+.greyS2FC { COLOR:#525252 ; } 
+
+
+
+
+
+
+
+/******************************** WEBSITE COLORS ********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** IMAGES FOR DIVISION **************************/ 
+
+.divisionImage {max-height: 298px;padding: 15px;}
+
+.divisionImage.pullLeft {border-left: 4px solid #1693A5;} 
+
+.divisionImage.pullRight {border-right: 4px solid #1693A5;}
